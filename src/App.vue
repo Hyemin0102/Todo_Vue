@@ -56,17 +56,17 @@ import { computed, onMounted, ref, watch } from 'vue';
   <main class="app">
     <section class="greeting">
       <h1 class="title">
-        Hi!
-        <input type="text" placeholder="이름을 입력해주세요" v-model="name">
+        안녕하세요!
+        <input type="text" placeholder="이름을 입력해주세요" v-model="name">님
       </h1>      
     </section>
 
     <section class="create-todo">
-      <h2>CREATE A TODO</h2>
+      <h2>To Do List</h2>
       <form id="new-todo-form" @submit.prevent="addTodo">
        <!-- v-on:submit.prevent // form submit 기능 -->
-        <h4>What's on your todo list?</h4>
-        <input type="text" id="content" placeholder="vue project 마무리" v-model="input_content">
+        <h4>오늘의 할 일은 무엇인가요?</h4>
+        <input type="text" id="content" placeholder="to do list 작성" v-model="input_content">
         <!-- {{ input_content }} -->
         <div class="options">
           <label>
