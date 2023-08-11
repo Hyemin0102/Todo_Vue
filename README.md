@@ -4,6 +4,8 @@
 vue를 활용한 Todo 앱
 
 ## 🔎프로젝트 소개
+https://charming-sherbet-f2cc91.netlify.app/
+
 처음으로 vue를 사용해 만든 간단한 Todo 앱입니다.
 
 todo list 추가, 삭제, 체크 기능을 구현하였으며, 로컬스토리지를 활용해 새로고침시에도 데이터가 유지됩니다.
